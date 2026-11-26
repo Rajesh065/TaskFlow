@@ -594,3 +594,5 @@ tr:hover td {
         padding: 16px;
     }
 }
+
+.toast { transition: opacity 0.2s ease; }
