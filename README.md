@@ -69,3 +69,19 @@ Then visit http://localhost:8080
 TaskFlow Pro – Built for real-world productivity.
 
 Test commit verification
+
+## Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SusmithaDuddukuri/TaskFlow.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd TaskFlow
+   ```
+
+3. Open the project in Visual Studio Code.
+
+4. Follow the How to Run instructions below to start the application.
