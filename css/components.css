@@ -168,6 +168,7 @@ select.status-done { border-left: 3px solid #10b981; }
 .task-priority { transition: opacity 0.2s ease; }
 .loading { transition: opacity 0.2s ease; }
 
+/* Task card presentation improvement */
 /* Calendar view presentation improvement */
 /* Team card presentation improvement */
 /* Form layout presentation improvement */
