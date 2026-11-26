@@ -594,3 +594,5 @@ tr:hover td {
         padding: 16px;
     }
 }
+
+@media (max-width: 600px) { body { overflow-x: hidden; } }
