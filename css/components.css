@@ -166,3 +166,5 @@ select.status-done { border-left: 3px solid #10b981; }
 }
 
 .loading { transition: opacity 0.2s ease; }
+
+/* Task card presentation improvement */
