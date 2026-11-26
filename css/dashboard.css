@@ -454,3 +454,5 @@
 .action-btns button.delete:hover {
     color: var(--danger);
 }
+
+.calendar-day { transition: background-color 0.2s ease; }
