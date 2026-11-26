@@ -461,3 +461,121 @@
 /* Dashboard statistics presentation improvement */
 /* Project overview presentation improvement */
 /* Report layout presentation improvement */
+
+/* ========================================
+   TaskFlow - Dashboard UI Improvements
+======================================== */
+
+/* Dashboard Header */
+.page-header {
+    padding: 8px 0 16px;
+}
+
+.page-header h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    color: var(--text);
+}
+
+.page-header p {
+    line-height: 1.6;
+}
+
+/* Dashboard Layout */
+.grid-2 {
+    gap: 24px;
+    align-items: start;
+}
+
+/* Project Cards */
+.project-card {
+    border-radius: 14px;
+    padding: 22px;
+    transition: all 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.project-card h3 {
+    font-size: 17px;
+    letter-spacing: -0.3px;
+}
+
+/* Progress Bars */
+.progress-bar {
+    height: 9px;
+    border-radius: 20px;
+    background: #e9eef5;
+}
+
+.progress-fill {
+    border-radius: 20px;
+}
+
+/* Activity Section */
+.activity-item {
+    padding: 16px 10px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.activity-item:hover {
+    background: rgba(148, 163, 184, 0.08);
+}
+
+.activity-content p {
+    line-height: 1.5;
+}
+
+/* Dashboard Task Cards */
+.task-card {
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Team Member Cards */
+.member-card {
+    border-radius: 14px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive Dashboard */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 23px;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .projects-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        padding: 18px;
+    }
+}
+
+/* Accessibility */
+.project-card:focus-visible,
+.task-card:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+}
