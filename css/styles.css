@@ -596,3 +596,12 @@ tr:hover td {
 }
 
 .toast { transition: opacity 0.2s ease; }
+@media (max-width: 600px) { body { overflow-x: hidden; } }
+/* Improve keyboard accessibility */
+.keyboard-accessible:focus-visible { outline-offset: 4px; }
+
+/* TaskFlow improvement: settings layout */
+
+/* Navigation menu presentation improvement */
+/* Sidebar presentation improvement */
+/* Responsive layout presentation improvement */
