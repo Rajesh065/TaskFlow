@@ -513,3 +513,6 @@ const Pages = {
         Utils.showToast(`${Utils.capitalize(key)} ${settings[key] ? 'enabled' : 'disabled'}`);
     }
 };
+
+// TaskFlow improvement: project filters
+
