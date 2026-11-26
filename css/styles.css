@@ -595,6 +595,7 @@ tr:hover td {
     }
 }
 
+@media (max-width: 600px) { body { overflow-x: hidden; } }
 /* Improve keyboard accessibility */
 .keyboard-accessible:focus-visible { outline-offset: 4px; }
 
