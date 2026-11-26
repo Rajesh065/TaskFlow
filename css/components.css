@@ -164,3 +164,5 @@ select.status-done { border-left: 3px solid #10b981; }
 [data-tooltip]:hover::after {
     opacity: 1;
 }
+
+.task-priority { transition: opacity 0.2s ease; }
