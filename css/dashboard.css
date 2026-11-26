@@ -454,3 +454,6 @@
 .action-btns button.delete:hover {
     color: var(--danger);
 }
+
+/* TaskFlow improvement: dashboard widgets */
+
