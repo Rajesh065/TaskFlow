@@ -594,3 +594,6 @@ tr:hover td {
         padding: 16px;
     }
 }
+
+/* Improve keyboard accessibility */
+.keyboard-accessible:focus-visible { outline-offset: 4px; }
