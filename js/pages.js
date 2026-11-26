@@ -514,6 +514,7 @@ const Pages = {
     }
 };
 
+// TaskFlow improvement: project filters
 // TaskFlow improvement: team management
 // TaskFlow improvement: task sorting
 
