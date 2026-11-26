@@ -595,6 +595,7 @@ tr:hover td {
     }
 }
 
+input:focus-visible { outline-offset: 3px; }
 .toast { transition: opacity 0.2s ease; }
 @media (max-width: 600px) { body { overflow-x: hidden; } }
 /* Improve keyboard accessibility */
